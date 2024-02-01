@@ -1,0 +1,10 @@
+name: aws
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: demo-aws-infra
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
